@@ -1,0 +1,6 @@
+@Multi_Layer_HostAddress = http://localhost:5032
+
+GET {{Multi_Layer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

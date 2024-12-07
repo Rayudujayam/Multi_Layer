@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MultilayerBusinessEntities\Multilayer_BusinessEntities.csproj" />
+    <ProjectReference Include="..\Multilayer_RepositoryLayer\Multilayer_RepositoryLayer.csproj" />
+  </ItemGroup>
+
+</Project>
